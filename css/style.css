@@ -1,0 +1,100 @@
+body {
+  background-image: url("../images/bubble-bg.png");
+  background-size: cover;
+  font-family: "Open Sans", arial, sans-serif;
+  margin: 0;
+}
+
+.container {
+  width: 600px;
+  background-color: #ddd;
+  margin: 200px auto 0;
+  border-radius: 15px 15px 0 0;
+  clear: both;
+}
+
+#top-image {
+  width: 600px;
+  border-radius: 15px 15px 0 0;
+}
+
+h1,
+h2 {
+  font-family: "Lobster", cursive;
+  color: #e22f8f;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  line-height: 1.75;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0 0 1rem;
+}
+
+h2 {
+  font-size: 3rem;
+  margin: 0 0 1rem;
+}
+
+aside {
+  float: right;
+}
+
+#wine-bottle {
+  margin-right: 5rem;
+}
+
+iframe {
+  width: 600px;
+  height: 350px;
+}
+
+section:nth-child(even) {
+  background-color: white;
+}
+
+@media only screen and (max-width: 630px) {
+  .container {
+    width: 100vw;
+    margin: 0;
+  }
+
+  #top-image {
+    width: 100vw;
+    border-radius: 0;
+  }
+
+  h1 {
+    font-size: 12vw;
+  }
+
+  h2 {
+    font-size: 11vw;
+  }
+
+  p {
+    font-size: 5vw;
+  }
+
+  aside {
+    float: none;
+  }
+
+  #cake {
+    margin: 0 31vw;
+  }
+
+  #wine-bottle {
+    margin: 0 39vw;
+  }
+
+  iframe {
+    width: 100vw;
+    height: 250px;
+  }
+}
